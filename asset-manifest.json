@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/%7BToDoApp-for-students%7D/static/css/main.0b736936.chunk.css",
+    "main.js": "/%7BToDoApp-for-students%7D/static/js/main.7326ea17.chunk.js",
+    "main.js.map": "/%7BToDoApp-for-students%7D/static/js/main.7326ea17.chunk.js.map",
+    "runtime-main.js": "/%7BToDoApp-for-students%7D/static/js/runtime-main.718f6468.js",
+    "runtime-main.js.map": "/%7BToDoApp-for-students%7D/static/js/runtime-main.718f6468.js.map",
+    "static/js/2.d551e53d.chunk.js": "/%7BToDoApp-for-students%7D/static/js/2.d551e53d.chunk.js",
+    "static/js/2.d551e53d.chunk.js.map": "/%7BToDoApp-for-students%7D/static/js/2.d551e53d.chunk.js.map",
+    "index.html": "/%7BToDoApp-for-students%7D/index.html",
+    "precache-manifest.f25ccf4e463ea598f69b97d281cef477.js": "/%7BToDoApp-for-students%7D/precache-manifest.f25ccf4e463ea598f69b97d281cef477.js",
+    "service-worker.js": "/%7BToDoApp-for-students%7D/service-worker.js",
+    "static/css/main.0b736936.chunk.css.map": "/%7BToDoApp-for-students%7D/static/css/main.0b736936.chunk.css.map",
+    "static/js/2.d551e53d.chunk.js.LICENSE.txt": "/%7BToDoApp-for-students%7D/static/js/2.d551e53d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.718f6468.js",
+    "static/js/2.d551e53d.chunk.js",
+    "static/css/main.0b736936.chunk.css",
+    "static/js/main.7326ea17.chunk.js"
+  ]
+}
