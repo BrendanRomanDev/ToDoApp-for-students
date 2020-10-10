@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+body {
+	padding: 0;
+	margin: 0;
+	background: #254e70;
+	text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+	width: 400px;
+	margin: 100px auto;
+	text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-title {
+	padding: 5px 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-body {
+	padding: 10px 30px 50px;
+	background: #ffffff;
+	border-radius: 0 0 10px 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.card-body h2 {
+	text-align: center;
+	margin-bottom: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-title {
+	background: #279af1;
+	color: white;
+}
+
+.add-item-div {
+	margin-top: 15px;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin-bottom: 25px;
+}
+
+input {
+	background: #fff;
+	outline-width: 0;
+	border: 2px solid #88c4f1;
+	border-radius: 999px;
+	height: 30px;
+	width: 100%;
+	padding: 10px 15px 5px;
+	font-size: 20px;
+}
+
+.add-button {
+	position: absolute;
+	right: 0px;
+	top: 2px;
+	outline-width: 0;
+	background-color: #279af1;
+	border: none;
+	color: #fff;
+	font-weight: 600;
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	font-size: 1.5rem;
+}
+
+.item-div {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	border-bottom: 1px solid lightgray;
+	padding: 15px 0;
+}
+
+.task-item {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.task-name {
+	font-size: 24px;
+	transition: all ease-in-out 500ms;
+}
+
+.task-name.complete {
+	text-decoration: line-through;
+	color: grey;
+}
+
+.circle {
+	margin-right: 20px;
+	align-self: center;
+	padding: 0;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	border: 3px solid #279af1;
+	transition: all ease-in 100ms;
+}
+
+.circle.complete {
+	background-color: #279af1;
+}
+
+.circle.incomplete {
+	background-color: #fff;
+}
+
+.trash-icon {
+	cursor: pointer;
+	font-size: 24px;
+	color: #ea526f;
+	align-self: center;
+	margin-right: 10px;
 }
